@@ -1,32 +1,17 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie("Toy Story","The story of a boy and his toys that come alive.","https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg","https://www.youtube.com/watch?v=KYz2wyBy3kc")
-#print(toy_story.storyline)
+#Creating multiple instances of the class Movie
+sweet_home_alabama = media.Movie("Sweet Home Alabama","Romantic comedy of a small town girl from Alabama","https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/Sweet_Home_Alabama_film.jpg/220px-Sweet_Home_Alabama_film.jpg","https://www.youtube.com/watch?v=BM89EgWx_Gs")
+beautiful_mind = media.Movie("A Beautiful Mind"," An American Biographical film based on the life of John Nash, a Nobel Laureate in economics","https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/A_Beautiful_Mind_Poster.jpg/220px-A_Beautiful_Mind_Poster.jpg","https://www.youtube.com/watch?v=YWwAOutgWBQ")
+gladiator = media.Movie("Gladiator","Story of an army general who becomes gladiator by fate","https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Gladiator_ver1.jpg/220px-Gladiator_ver1.jpg","https://www.youtube.com/watch?v=Q-b7B8tOAQU")
+good_will_hunting = media.Movie("Good Will Hunting","Story of a janitor at MIT who has a genius level IQ","https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Good_Will_Hunting_theatrical_poster.jpg/220px-Good_Will_Hunting_theatrical_poster.jpg","https://www.youtube.com/watch?v=PaZVjZEFkRs")
+spy_game = media.Movie("Spy Game","Story of an american spy","https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Spy_Game_poster.jpg/220px-Spy_Game_poster.jpg","https://www.youtube.com/watch?v=EH30237stWM")
+bone_collector = media.Movie("The Bone Collector","Story of Tetraplegic forensics expert and a patrol cop","https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Bone_collector_poster.jpg/220px-Bone_collector_poster.jpg","https://www.youtube.com/watch?v=w4z4Xsp-bos")
 
-avatar = media.Movie("Avatar"," The story of Aliens.","https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg","https://www.youtube.com/watch?v=d1_JBMrrYw8")
-#print( avatar.storyline)
-#avatar.show_trailor()
+#Create a list of movie instances
+movies = [sweet_home_alabama,beautiful_mind,gladiator,good_will_hunting,spy_game,bone_collector]
 
-#sweet_home_alabama = media.Movie("Sweet Home Alabama","Romantic comedy of a small town girl from Alabama","https://en.wikipedia.org/wiki/File:Sweet_Home_Alabama_film.jpg","https://www.youtube.com/watch?v=BM89EgWx_Gs")
-#sweet_home_alabama.show_trailor()
+# Pass the list of movie instances to open movie page function
+fresh_tomatoes.open_movies_page(movies)
 
-school_of_rock = media.Movie("School of Rock"," Using rock music to learn","https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg","https://www.youtube.com/watch?v=5afGGGsxvEA")
-
-ratatouille = media.Movie("Ratatouille","A rat is a checf in Paris","https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg","https://www.youtube.com/watch?v=c3sBBRxDAqk")
-
-midnight_in_paris = media.Movie(" Midnight in Paris","Going back in time to meet the authors","https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg","https://www.youtube.com/watch?v=FAfR8omt-CY")
-
-hunger_games = media.Movie("Hunger Games","A really real reality show","https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg","https://www.youtube.com/watch?v=FovFG3N_RSU")
-
-movies = [toy_story,avatar,school_of_rock,ratatouille,midnight_in_paris,hunger_games]
-
-#fresh_tomatoes.open_movies_page(movies)
-
-# print class variable
-#print(media.Movie.VALID_RATINGS)
-
-# print predefined class variables
-print(media.Movie.__doc__)
-print(media.Movie.__name__)
-print(media.Movie.__module__)

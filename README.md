@@ -10,7 +10,7 @@ This folder contains the information for Movie Trailer Website project.
 2. media.py
     * Python file containing the definition for the class Movie
 3. entertainement_center.py
-    * Python file containing the code create multiple instances of the class Movie and display them in a website
+    * Python file containing the code to create multiple instances of the class Movie and display them in a website
 4. environment.yaml
     * Conda environment file for this project
 5. README.md

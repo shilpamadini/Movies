@@ -18,12 +18,18 @@ This folder contains the information for Movie Trailer Website project.
 
 ## Installation
 
-Please follow below instruction to create this project environment on your local desktop.
+Please follow below instruction to create and run this project on your local desktop.
 * Download the project folder from the github url
-```git clone https://github.com/shilpamadini/Movies.git```
+	* ```git clone https://github.com/shilpamadini/Movies.git```
 * Install the conda environment using the environment file. this will create a conda environment with the same name listed in the environment file. This will also install all the required packages for this project
-```conda env create -f environment.yaml```
+	* ```conda env create -f environment.yaml```
 * List the conda environments
-```conda env list```
-* Activate the enviroment for titanic
-```source activate fsnd_py2```
+	* ```conda env list```
+* Activate the enviroment for fsnd_py2
+	* ```source activate fsnd_py2```
+* To run this application from Terminal
+ 	* ```python media.py```
+ 	* ```python entertainment_center.py```
+* To run this application from a Python IDE
+	* Select ```RUN``` from the IDLE Menu
+	* Click ```RUN MODULE``` from the drop down list

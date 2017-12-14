@@ -28,7 +28,7 @@ Please follow below instruction to create and run this project on your local des
 * Activate the enviroment for fsnd_py2
 	* ```source activate fsnd_py2```
 * To run this application from Terminal
-	* Go to the folder Movies directory
+	* Go to the Movies directory
  	* ```python media.py```
  	* ```python entertainment_center.py```
 * To run this application from a Python IDE
